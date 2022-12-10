@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primer pagina</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="assets/JS/scripts.js"></script>
+  <!--Fontawesome-->
+  <script src="https://kit.fontawesome.com/151372b1e6.js" crossorigin="anonymous">
+  </script>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/ea3c9cc36d.js" crossorigin="anonymous"></script>
+</head>
+<!--Navbar-->
+<body class="pagina">
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/assets/img/LOGO ARGENTINA PROGRAMA.png" alt="" width="30%" height="">
+      </a>
+      <!-- Pone Los logos de las redes sociales-->
+      <ul class="list-group list-group-horizontal ">
+        <li class="list-group-item"><a href="https://www.instagram.com/luccas_pranteda/" target="_blank"><i
+              class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCbP4r-Gon_ghltKoTgjFvgQ" target="_blank"><i
+              class="fa-brands fa-youtube fa-2xl"></i></a></li>
+        <li class="list-group-item"><a
+            href="https://m.facebook.com/luccas.pranteda?eav=AfbzaVq8Y-rJspw6RaxX2t_UPdiUw0Ae5QdiARn7qWJb9qtBqd1Z_j-JtClHMA9C1zI&ref=wizard&paipv=0"
+            target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+        <li class="list-group-item"><a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+        <!-- Boton para enviar al login -->
+        <li class="list-group-item">
+          <a href="login.html"><i class="fa-solid fa-user-lock fa-2xl" type="button"></i></a>
+        </li>
+      </ul>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <div class="mb-3 row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail" value="Colocar Correo Electrónico">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" value="contrazeña">
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Guardar Cambios</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <!-- Para poner banner con botones-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/paisaje-digital-en-atardecer_3840x2160_xtrafondos.com.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Paisaje atardecer</h5>
+          <p>Hermoso lugar para descarnsar y despejar la mente.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/descargar.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Leon en la Luna</h5>
+          <p>Leon rodeado de asteroides y muchos colores</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/red-forest-3840x2160-4k-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bosque Rojo</h5>
+          <p>Arboleda rojiza con un bello atardecer rojizo.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Seccion sobre mi-->
+  <section id="Sobre mi" class="about sobremi">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3 mt-4">
+          <img src="assets/img/20210225_180632_Film3.jpg" class="rounded-circle img-fluid w-50 perfil" alt="foto perfil" title="...">
+          <h5 class="letracolor"> Luccas Pranteda </h5>
+        </div>
+        <div class="col-9 mt-4">
+          <h3 style="font-family:Arial; color: brown;"> <u>ACERCA DE MI</u></h3>
+          <h4 style="font-family:'Times New Roman';">
+            <p><b>Soy un chico de 20 años apasionado por la programación y todo lo relacionado con la computación. Busco
+              ser un desarrollador full stack developer jr. Considero que soy una persona que busca lograr sus metas,
+              aprendiendo cosas nuevas en el día a día. Tambien estoy estudiando en la Uba la carrera Analista de
+              sistemas(realizando el CBC).</b></p>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Seccion Experiencia-->
+  <section id="Sobre mi" class="about fondo">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3 mt-4">
+          <h1><u>EXPERENCIA</u></h1>
+         <h4 style="color:deepskyblue"><u>Kiosco de golosinas</u></h4>
+          <p>Trabajo en un <i>kiosco de golosinas desde el 2020</i></p>
+        </div>
+        <div class="col-9 mt-4">
+          <img class="opasidad imagen_kiosco rounded-5 border border-5" src="assets/img/kiosco.jpg" alt="..." title="...">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Seccion educación-->
+  <section id="Sobre mi" class="about fondoeducacion">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-5">
+          <img src="assets/img/Certificado se programar primera etapa.jpg" class="rounded w-100 border border-5"  alt="..." title="...">
+        </div>
+        <div class="col-3 mt-4">
+          <h2><u>EDUCACIÓN</u></h2>
+          <p style="font-family:'Times New Roman', Times, serif ;">Termine el colegio con secundario completo "Titulo bachiller comercial" llamado Instituto Sagrado Corazón de Jesús.
+            Tambien realice un curso de programación de videojuegos con Unity 3D llamado "Aprendiendo programando Virtual" planteado por el gobierno de la ciudad de Buenos Aires.
+            Luego finalice el curso la primera etapa #Sé programar de Argentina programa.
+          </p>
+        </div>
+        <div class="col-4">
+         <img src="assets/img/Certificado Unity 3D.jpg" class="w-100 moverimagen border border-5" alt="..." title="...">
+         <img src="assets/img/Colegio.jpg" class="w-25 border border-4">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Seccion Hard & Soft Skills-->
+  <section id="Sobre mi" class="about fondohard">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <h1><u>HARD & SOFT SKILLS</u></h1>
+        <h4>HTML</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        <h4>CSS</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+        <h4>JAVASCRIPT</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+          </div>
+        <h4>ANGULAR</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 2%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+          </div>
+        <h4>JAVA</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        <h4>INGLES</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+          </div>
+        <h4>HABILIDADES BLANDAS-COMPAÑERISMO</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        <h4>HABILIDADES DURAS-COMUNICACIÓN</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Seccion Proyectos-->
+  <section id="Sobre mi" class="about fondoproyecto">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3">
+          <img src="assets/img/compu gamer.jpg" class="rounded-circle w-75 " alt="..." title="...">
+          
+        </div>
+        <div class="col-6 mt-4">
+          <h1>PROYECTOS</h1>
+          <p>Tengo una gran pasión por las computadoras especialmente por los videojuegos</p>
+        </div>
+        <div class="col-3">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/compugamer 2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/compugamer 3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/compugamer 4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Footer derechos de autor-->
+  <footer class="bg-black text-white text-center fs-6">
+    <div class="pt-3">
+      <p>& Copy Copyright Luccas Pranteda-2022</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
