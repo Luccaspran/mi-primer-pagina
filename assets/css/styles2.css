@@ -46,7 +46,6 @@ img.rounded-circle.w-100.nombre{
 }
 section#Sobre\ mi{
     margin-block: auto;
-    
 }
 .fondo{ /* Fondo de la seccion experiencia*/
 background: rgb(131,58,180);
@@ -160,6 +159,7 @@ button.btn.btn-secondary{ /*Cambia el color del boton cerrar*/
 .col-8.formulario-login{
     margin-top: 10%;
 }
+
 
 
     

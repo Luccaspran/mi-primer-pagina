@@ -20,6 +20,10 @@ a,a:hover{
     height: 15%;
     padding:0.5rem;
 }
+.moverfooter{ /*Mueve el footer hacias la derecha y izquierda*/
+    margin-left: -3rem;
+    margin-right: -0.75rem;
+}
 .colornegro{ /*cambia el color a negro de los iconos*/
     color: #000000;
 }
@@ -36,5 +40,30 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10daeb",endCo
 .textfooter{ /* Pone en el centro el texto del footer*/
     margin-top: 1rem;
 }
+@media(max-width: 500px){/*Mueve hacia la derecha los nombres banner,etc en 500px*/
+    .achicar{
+       margin-left: 3rem;
+        }
+      
+}
+@media(max-width: 500px){/*Achica los botones en 500px*/
+    .acomodarbotones{
+       width: 50%;
+       margin-left: 3rem;
+        }
+      
+}
+@media(max-width: 500px){/*Mueve el footer y lo centra el texto en 500px*/
+    .moverfooter{
+       
+       margin-left: -3rem;
+        }
+    p.textfooter{
+       margin-left: 2rem;
+        }
+      
+}
+
+
 
 
